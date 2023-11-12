@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Nunito:ital,wght@0,300;0,400;1,300&display=swap');
+#nav{
+    background: #f0b061;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#nav a{
+    color: #fff; /* Text color */
+    font-family: 'Agbalumo',sans-serif;
+  text-decoration: none; /* Remove underlines from links */
+  margin: 0px 10px; /* Add spacing between links */
+  font-weight: bold; /* Bold text */
+  transition: color 0.3s;
+}
+#nav a:hover {
+  color: #bef800; /* Change color on hover */
+}
+#nav #logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #6ef6f4;
+  text-decoration: none;
+  margin-left: 10px; /* Add spacing from the left */
+}
+#nav #menu {
+  list-style: none; /* Remove list bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display menu items horizontally */
+  align-items: center; /* Center items vertically */
+}
+#nav #menu li {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
