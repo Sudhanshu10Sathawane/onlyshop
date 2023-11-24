@@ -1,4 +1,4 @@
-import ProductGrid from "./Components/Navbar/Grid/ProductGrid";
+import ProductGrid from "./Components/Grid/Grid/ProductGrid";
 import Navbar from "./Components/Navbar/Navbar";
 import { Product } from "./Data/Data";
 function App() {
