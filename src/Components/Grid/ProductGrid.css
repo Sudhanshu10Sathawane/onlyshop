@@ -39,3 +39,12 @@ img:hover{
 .product-card span {
   font-weight: bold;
 }
+button{
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}

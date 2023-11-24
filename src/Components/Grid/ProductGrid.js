@@ -14,10 +14,14 @@ const ProductGrid = ({ products }) => {
           <h3>{product.name}</h3>
           <p>{product.description}</p>
           <span>${product.price}</span>
+          <div>
           <button onClick={() => addToCart(product)}>Add to Cart</button>
-          <Link to="/cart">
-            <button>View Cart</button>
+          </div>
+          <div>
+          <Link to="/cart">{/*To be modified */}
+            <button id="viewDetails">View Details</button>
           </Link>
+          </div>
         </div>
       ))}
     </div>
