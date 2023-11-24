@@ -1,6 +1,5 @@
-// CartContext.js
 import React, { createContext, useContext, useReducer } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const CartContext = createContext();
 
@@ -22,11 +21,11 @@ export const CartProvider = ({ children }) => {
   };
 
   const [state, dispatch] = useReducer(cartReducer, initialState);
-  const history = useHistory(); // Access to the history object
+  const history = useNavigate(); // Access to the history object
 
   const addToCart = (product) => {
     dispatch({ type: 'ADD_TO_CART', payload: product });
-    history.push('/cart'); // Navigate to the cart page after adding to the cart
+    history('/cart'); // Navigate to the cart page after adding to the cart
   };
 
   return (
