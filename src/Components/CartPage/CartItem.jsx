@@ -19,7 +19,7 @@ export const CartItem = (props) => {
             <p><b>{name}</b></p>
             <p>Rs {price}</p>   
             <p>Quantity: {cartItems[id]}</p> 
-            <p className='price'><b>Price</b>: {cartItems[id]*price}</p>
+            <p className='price'><b>Price</b>: {parseFloat((cartItems[id]*price).toFixed(2))}</p>
             <div className='countHandler'>
             <button onClick={()=>removeFromCart(id)}>-</button>
             <input value={cartItems[id]} onChange={(e)=>updateCartItem(Number(e.target.value),id)}/>

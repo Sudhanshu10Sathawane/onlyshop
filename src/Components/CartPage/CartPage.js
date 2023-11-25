@@ -19,7 +19,7 @@ const CartPage = () => {
             })}
         </div>
         <div className='bill-component'>
-            <h1>Subtotal:{totalAmount}</h1>
+            <h1>Subtotal:{parseFloat(totalAmount.toFixed(2))}</h1>
             <button className='continue'>Continue Shopping</button>
             <button className='checkout'>Checkout</button>
         </div>
