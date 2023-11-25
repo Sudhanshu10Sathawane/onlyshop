@@ -4,7 +4,7 @@ import product3 from "../images/Product3.jpg"
 import product4 from "../images/Product4.jpg"
 import product5 from "../images/Product5.jpg"
 import product6 from "../images/Product6.jpg"
-export const Product=[
+export const Products=[
     {
     id: 1,
     name: "Product 1",
