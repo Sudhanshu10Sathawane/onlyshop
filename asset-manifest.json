@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/onlyshop/static/css/main.8bb7500e.css",
+    "main.js": "/onlyshop/static/js/main.7ce14f4a.js",
+    "static/media/Product6.jpg": "/onlyshop/static/media/Product6.8d6928b1e87bf36b3cc0.jpg",
+    "static/media/Product3.jpg": "/onlyshop/static/media/Product3.e40061f16787da959abd.jpg",
+    "static/media/Product1.jpg": "/onlyshop/static/media/Product1.9ed2a2c66e2e75b754d3.jpg",
+    "static/media/Product2.jpg": "/onlyshop/static/media/Product2.d6fae3ee65f2cbf7ddbc.jpg",
+    "static/media/Product4.jpg": "/onlyshop/static/media/Product4.35734130b15735f5f9f0.jpg",
+    "static/media/Product5.jpg": "/onlyshop/static/media/Product5.aca4c737ecce9a3bf680.jpg",
+    "index.html": "/onlyshop/index.html",
+    "main.8bb7500e.css.map": "/onlyshop/static/css/main.8bb7500e.css.map",
+    "main.7ce14f4a.js.map": "/onlyshop/static/js/main.7ce14f4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bb7500e.css",
+    "static/js/main.7ce14f4a.js"
+  ]
+}
